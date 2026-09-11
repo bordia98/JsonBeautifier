@@ -40,10 +40,10 @@ function applyTheme(dark) {
   localStorage.setItem('jb-theme', dark ? 'dark' : 'light');
 }
 
-// Restore saved theme
+// Restore saved theme — default is light
 (function initTheme() {
   const saved = localStorage.getItem('jb-theme');
-  applyTheme(saved ? saved === 'dark' : true);
+  applyTheme(saved ? saved === 'dark' : false);
 })();
 
 // ─── Sample JSON ─────────────────────────────────────────────────────────────
