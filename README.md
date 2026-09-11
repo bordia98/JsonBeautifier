@@ -101,16 +101,14 @@ The syntax highlighter is a lightweight regex tokeniser — no external librarie
 
 <table>
   <tr>
-    <td align="center"><b>Light Mode</b></td>
-    <td align="center"><b>Dark Mode</b></td>
+    <td align="center"><b>☀️ Light Mode</b></td>
+    <td align="center"><b>🌙 Dark Mode</b></td>
   </tr>
   <tr>
-    <td><img src="og-image.png" alt="Light mode screenshot" /></td>
-    <td><img src="og-image.png" alt="Dark mode screenshot" /></td>
+    <td><img src="screenshot-light.png" alt="Light mode — JSON Beautifier" /></td>
+    <td><img src="screenshot-dark.png" alt="Dark mode — JSON Beautifier" /></td>
   </tr>
 </table>
-
-> Replace these placeholder screenshots with actual browser captures once deployed.
 
 ---
 
