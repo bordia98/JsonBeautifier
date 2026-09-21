@@ -31,7 +31,7 @@ const btnTheme     = document.getElementById('btn-theme');
 // ─── State ───────────────────────────────────────────────────────────────────
 let lastParsed = null;
 let toastTimer = null;
-let isDark = true; // tracks current theme
+let isDark = false; // tracks current theme
 
 // ─── Theme ───────────────────────────────────────────────────────────────────
 function applyTheme(dark) {
